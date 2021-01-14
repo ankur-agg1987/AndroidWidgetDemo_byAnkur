@@ -19,8 +19,14 @@
         android:textStyle="bold|italic" />
 
     <Button
-        android:id="@+id/widgetButton"
+        android:id="@+id/openActivityBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click this to open Activity" />
+
+    <Button
+        android:id="@+id/UpdateValueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to fetch data"/>
 </LinearLayout>
